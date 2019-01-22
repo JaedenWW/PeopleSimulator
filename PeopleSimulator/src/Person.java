@@ -1,16 +1,14 @@
 class Person {
 	public int age;
 	private String name;
+    public String cRecord;
 
-	public Person(int age, String name) {
+	public Person(int age, String name,String cRecord) {
 		this.name = name;
 		this.age = age;
+        this.cRecord = cRecord;
 	}
 
-	public Person() {
-		this.name = "Brad";
-		this.age = 37;
-	}
 
 	public boolean olderThan(int otherAge) {
 		if (age > otherAge) {
@@ -32,5 +30,8 @@ class Person {
 	public void hadBirthday() {
 		age++;
 	}
+    public String getRecord(){
+        return cRecord;
+    }
 
 }

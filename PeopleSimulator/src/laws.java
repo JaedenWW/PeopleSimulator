@@ -10,4 +10,7 @@ class Law{
         this.sentence = sentence;
         this.chance = chance;
     }
+   public int getSentence(){
+       return sentence;
+    }
 }
