@@ -8,4 +8,14 @@ class Crime{
         this.punish = punish;
         this.percent = percent;
     }
+    public String cName(){
+        return name;
+    }
+    public double likelyhood(){
+        return percent;
+    }
+    public int sentence(){
+        return punish;
+    }
+
 }
